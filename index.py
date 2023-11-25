@@ -8,7 +8,7 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from movies_scraper import search_movies, get_movie
 
 TOKEN = os.getenv("TOKEN")
-URL = "https://flixseries-nkflix.koyeb.app"
+URL = os.getenv("URL")
 bot = Bot(TOKEN)
 
 def welcome_1(update, context) -> None:
