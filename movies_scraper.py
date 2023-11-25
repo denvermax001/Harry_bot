@@ -1,10 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-
 url_list = {}
 api_key = "e7dce3653d16d1fb9c6af592371e2ba692627aad"
-
 
 def search_movies(query):
     movies_list = []
@@ -19,7 +17,6 @@ def search_movies(query):
         movies_list.append(movies_details)
         movies_details = {}
     return movies_list
-
 
 def get_movie(query):
     movie_details = {}
@@ -38,4 +35,3 @@ def get_movie(query):
             final_links[f"{i.text}"] = link['shortenedUrl']
         movie_details["links"] = final_links
     return movie_details
-
