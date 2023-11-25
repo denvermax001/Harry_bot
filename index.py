@@ -7,7 +7,7 @@ from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler, Dispatcher
 from scraper import search_movies, get_movie
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "6796425105:AAFAWze2dtqtmmLc_Cuok7XRuGQDMRFhmpg"
 URL = "https://flixseriesclone.vercel.app"
 bot = Bot(TOKEN)
 
