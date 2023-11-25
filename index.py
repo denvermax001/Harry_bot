@@ -14,7 +14,7 @@ bot = Bot(TOKEN)
 def welcome(update, context) -> None:
     update.message.reply_text(f"Hello Dear, Welcome to NKFLIX.\n"
                               f"🔥 Download Your Favourite 🎬 Movies, Webseries & TV-Shows For 💯 Free And 🍿 Enjoy it.")
-    update.message.reply_text("👇 Enter 🎬 Movie, Web-Series Or TV-Show Name Below 👇")
+    update.message.reply_text("👇 Enter Keyword Below 👇")
 
 def find_movie(update, context):
     search_results = update.message.reply_text("Processing")
