@@ -4,6 +4,12 @@ This project is a **"Telegram Movie Download Bot"** that allows users to search 
 
 This project demonstrates how to integrate web scraping, Telegram Bot API, and URL shortening in Python. It is built for learning purposes only. The bot scrapes movie data from publicly available sources. I do not promote or endorse piracy in any form. Please use this code responsibly, and ensure compliance with copyright laws. I am not responsible for any misuse or legal consequences.
 
+# Deployments
+
+1. Get Bot Token for Telegram: [BotFather](https://telegram.me/BotFather)
+2. Host Project: [Vercel](https://vercel.com/)
+3. Get URL Shortner API [URLSHORTX](https://urlshortx.com/)
+
 # Check out My Projects & Resume
 1. Personal Website: [https://nishchal-kansara.web.app/](https://nishchal-kansara.web.app/)
 2. Resume: [https://nishchal-kansara.web.app/resume.html](https://nishchal-kansara.web.app/resume.html)
