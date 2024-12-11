@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 url_list = {}
-api_key = "e7dce3653d16d1fb9c6af592371e2ba692627aad"
+api_key = ""# Get API Key from "https://urlshortx.com/".
 
 def search_movies(query):
     movies_list = []
