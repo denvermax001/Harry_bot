@@ -7,12 +7,12 @@ from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler, Dispatcher
 from scraper import search_movies, get_movie
 
-TOKEN = "6796425105:AAFAWze2dtqtmmLc_Cuok7XRuGQDMRFhmpg"
-URL = "https://flixseriesclone.vercel.app"
+TOKEN = "" # Insert Bot Token
+URL = "" # Host on "https://vercel.com/" & Insert project URL like: "https://project-name.vercel.app"
 bot = Bot(TOKEN)
 
 def welcome(update, context) -> None:
-    update.message.reply_text(f"Hello Dear, Welcome to NKFLIX.\n"
+    update.message.reply_text(f"Hello Dear, Welcome to Project - Name.\n"
                               f"🔥 Download Your Favourite Movies, Webseries & TV-Shows For 💯 Free And 🍿 Enjoy it.")
     update.message.reply_text("👇 Enter Keyword Below 👇")
 
