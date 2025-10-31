@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 url_list = {}
-api_key = "31229fb88b01bfc4c42d97584eb914271323110f"    # Get API Key from "https://urlshortx.com/" and Insert it Here.
+api_key = ""    # Get API Key from "https://urlshortx.com/" and Insert it Here.
 
 def search_movies(query):
     movies_list = []
@@ -35,4 +35,5 @@ def get_movie(query):
             final_links[f"{i.text}"] = link['shortenedUrl']
         movie_details["links"] = final_links
     return movie_details
+
 
