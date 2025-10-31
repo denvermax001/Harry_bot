@@ -12,9 +12,9 @@ URL = "" # Host on "https://vercel.com/" & Insert project URL like: "https://pro
 bot = Bot(TOKEN)
 
 def welcome(update, context) -> None:
-    update.message.reply_text(f"Hello Dear, Welcome to Project - Name.\n"
-                              f"🔥 Download Your Favourite Movies, Webseries & TV-Shows For 💯 Free And 🍿 Enjoy it.")
-    update.message.reply_text("👇 Enter Keyword Below 👇")
+    update.message.reply_text(f"Hello, Welcome to Harry_bot.\n"
+                              f"🔥 Download Your Favourite Movies, Webseries & TV-Shows.")
+    update.message.reply_text("👇 Enter Movie name and the Year (Specify language if necessasry) 👇")
 
 def find_movie(update, context):
     search_results = update.message.reply_text("Processing")
@@ -74,3 +74,4 @@ def set_webhook():
         return "webhook setup ok"
     else:
         return "webhook setup failed"
+
